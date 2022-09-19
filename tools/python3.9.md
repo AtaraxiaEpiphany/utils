@@ -1,4 +1,29 @@
-#install python3.9
+# Python3.10
+- install pip
+```
+sudo apt install pip
+```
+- install the latest pip
+```
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
+```
+- test result
+```
+python3 -m pip --version
+```
+- output
+```
+pip 22.2.2 from /home/ataraxia/.local/lib/python3.10/site-packages/pip (python 3.10)
+```
+- test upgrade
+```
+python3 -m pip install --upgrade pip
+sudo apt install graphviz
+```
+
+
+
+# install python3.9
 - [python3.9](https://linuxize.com/post/how-to-install-python-3-9-on-ubuntu-20-04/)
 
 
@@ -28,3 +53,5 @@ If you see any permissions errors, you may need to use
 If you get an error like No module named 'distutils.util' when you run python3.9 get-pip.py, and you are on a Debian-based Linux distribution, run
 
 `sudo apt install python3.9-distutils`
+
+
