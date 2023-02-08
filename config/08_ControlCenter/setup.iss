@@ -1,0 +1,29 @@
+[InstallShield Silent]
+Version=v7.00
+File=Response File
+[File Transfer]
+OverwrittenReadOnly=NoToAll
+[{52CF73F1-9FE1-4917-AE56-55BF319988EC}-DlgOrder]
+Dlg0={52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdWelcome-0
+Count=4
+Dlg1={52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdStartCopy2-0
+Dlg2={52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdFinish-0
+Dlg3={52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdFinishReboot-0
+[{52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdWelcome-0]
+Result=1
+[{52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdStartCopy2-0]
+Result=1
+[Application]
+Name=ControlCenter 3.0 Driver v1.9
+Version=1.9.0
+Company=Control Center
+Lang=0409
+[{52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdFinish-0]
+Result=1
+bOpt1=0
+bOpt2=0
+[{52CF73F1-9FE1-4917-AE56-55BF319988EC}-SdFinishReboot-0]
+Result=1
+BootOption=0
+[{53EB6D84-7079-4A22-A69D-E56808B50008}-DlgOrder]
+Count=0
