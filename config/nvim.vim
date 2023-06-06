@@ -767,6 +767,11 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" Copy to clipboard on visual mode.
+vnoremap <C-C> "*y
+" Copy from clipboard in insert mode.
+inoremap <C-V> <ESC>"*p
+
 
 set shiftwidth =4
 set tabstop =4
